@@ -11,10 +11,8 @@ body {
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 /* Carousel base class */
-.carousel {
-  margin-top: 11.4rem;
-  margin-bottom: 4rem;
-  max-height: 450px;
+#grupoCarousel {
+  margin: 13rem 0 4rem;
 }
 
 /* Since positioning the image, we need to help out the caption */
@@ -40,6 +38,58 @@ body {
 .nav-pills .nav-link {
   font-family: Gotham;
   font-weight: 600;
+}
+
+.custom__checkbox {
+  font-family: Gotham;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+}
+
+.custom__checkbox .setor {
+  padding: 1rem;
+  min-height: 2rem;
+  width: 100%;
+  background-color: #efeeee;
+}
+
+.custom__checkbox input {
+  position: absolute;
+  opacity: 0;
+}
+
+.custom__checkbox .setor .categoria {
+  display: block;
+}
+
+.custom__checkbox .setor p {
+  margin: 0.5rem 0 0;
+}
+
+.custom__checkbox .setor ul {
+  margin-bottom: 0;
+}
+
+.custom__checkbox .setor p,
+.custom__checkbox .setor li {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #666666;
+}
+
+.custom__checkbox .setor:hover {
+  background: #E0E0E0;
+}
+
+.custom__checkbox input:checked ~ .setor,
+.custom__checkbox input:checked ~ .setor .categoria,
+.custom__checkbox input:checked ~ .setor p,
+.custom__checkbox input:checked ~ .setor li {
+  background: #333333;
+  color: #ffffff;
 }
 
 /*  
