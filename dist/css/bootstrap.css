@@ -6732,6 +6732,12 @@ body {
   color: #ffffff;
 }
 
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+#conteudo {
+  margin: 13rem 0 4rem;
+}
+
 /*  
   ------------------------- */
 .footer {
