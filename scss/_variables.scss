@@ -36,7 +36,7 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #0061AF !default; //0d6efd 
+$blue:    #0061AF !default; //original 0d6efd - 1ª versao #0061AF
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -304,7 +304,7 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
+$light:         $gray-300 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
