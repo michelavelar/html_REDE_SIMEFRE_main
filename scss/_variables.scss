@@ -549,9 +549,9 @@ $font-family-code:            var(--#{$prefix}font-monospace) !default;
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
 $font-size-root:              null !default;
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-sm:                $font-size-base * .875 !default;
-$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-base:              .875rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .65 !default;
+$font-size-lg:                $font-size-base * 1 !default;
 
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
@@ -563,9 +563,9 @@ $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
 
-$line-height-base:            1.5 !default;
-$line-height-sm:              1.25 !default;
-$line-height-lg:              2 !default;
+$line-height-base:            1.25 !default;
+$line-height-sm:              1.15 !default;
+$line-height-lg:              1.5 !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;
 $h2-font-size:                $font-size-base * 2 !default;
