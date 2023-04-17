@@ -878,7 +878,7 @@
 .icon-link {
   display: flex;
   align-items: center;
-  text-decoration-color: rgba(0, 97, 175, 0.5);
+  text-decoration-color: rgba(58, 58, 146, 0.5);
   text-underline-offset: 0.5rem;
   backface-visibility: hidden;
 }
@@ -1083,7 +1083,7 @@
   text-decoration: none;
 }
 .bd-footer a:hover, .bd-footer a:focus {
-  color: #0061AF;
+  color: #3a3a92;
   text-decoration: underline;
 }
 
@@ -1541,7 +1541,7 @@
 
 .swatch-blue {
   color: #fff;
-  background-color: #0061AF;
+  background-color: #3a3a92;
 }
 .swatch-blue::after {
   position: absolute;
@@ -1551,8 +1551,8 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "6.30" "\a" "6.30" "\a" "3.32";
-  background-color: #0061AF;
+  content: "9.54" "\a" "9.54" "\a" "2.19";
+  background-color: #3a3a92;
   background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
@@ -1826,47 +1826,47 @@
 
 .bd-blue-100 {
   color: #000;
-  background-color: #ccdfef;
+  background-color: #d8d8e9;
 }
 
 .bd-blue-200 {
   color: #000;
-  background-color: #99c0df;
+  background-color: #b0b0d3;
 }
 
 .bd-blue-300 {
   color: #000;
-  background-color: #66a0cf;
+  background-color: #8989be;
 }
 
 .bd-blue-400 {
-  color: #000;
-  background-color: #3381bf;
+  color: #fff;
+  background-color: #6161a8;
 }
 
 .bd-blue-500 {
   color: #fff;
-  background-color: #0061AF;
+  background-color: #3a3a92;
 }
 
 .bd-blue-600 {
   color: #fff;
-  background-color: #004e8c;
+  background-color: #2e2e75;
 }
 
 .bd-blue-700 {
   color: #fff;
-  background-color: #003a69;
+  background-color: #232358;
 }
 
 .bd-blue-800 {
   color: #fff;
-  background-color: #002746;
+  background-color: #17173a;
 }
 
 .bd-blue-900 {
   color: #fff;
-  background-color: #001323;
+  background-color: #0c0c1d;
 }
 
 .bd-indigo-100 {
@@ -2358,7 +2358,7 @@
 }
 .btn-clipboard:hover,
 .btn-edit:hover {
-  color: #0061AF;
+  color: #3a3a92;
 }
 .btn-clipboard:focus,
 .btn-edit:focus {
@@ -2688,7 +2688,7 @@
 .anchor-link {
   padding: 0 0.175rem;
   font-weight: 400;
-  color: rgba(0, 97, 175, 0.5);
+  color: rgba(58, 58, 146, 0.5);
   text-decoration: none;
   opacity: 0;
   transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
@@ -2702,7 +2702,7 @@
   content: "#";
 }
 .anchor-link:focus, .anchor-link:hover, :hover > .anchor-link, :target > .anchor-link {
-  color: #0061AF;
+  color: #3a3a92;
   text-decoration: none;
   opacity: 1;
 }
